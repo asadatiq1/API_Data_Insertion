@@ -1,0 +1,65 @@
+{
+    "company1": {
+        "url": "abcdef.com.us",
+        "status": "active",
+        "registrationId": "reg id",
+        "name": "Company 1010",
+        "updatedBy": "64f6e66d6a7de8ee042d79a1",
+        "systemAdmin": {
+          "phone": "1234455",
+          "lastName": "Hulk",
+          "jobTitle": "Manager",
+          "firstName": "logan",
+          "email": "company1010@mail.com"
+        },
+        "businessContact": {
+          "phone": "0900876",
+          "lastName": "Lee",
+          "jobTitle": "Clerk",
+          "firstName": "john",
+          "email": "johnLee@mail.com"
+        }
+      },
+      "company2": {
+        "url": "abcdef.com.us",
+        "status": "active",
+        "registrationId": "reg id",
+        "name": "Company 1011",
+        "updatedBy": "64f6e66d6a7de8ee042d79a1",
+        "systemAdmin": {
+          "phone": "1234455",
+          "lastName": "Hulk",
+          "jobTitle": "Manager",
+          "firstName": "logan",
+          "email": "company1011@mail.com"
+        },
+        "businessContact": {
+          "phone": "0900876",
+          "lastName": "Lee",
+          "jobTitle": "Clerk",
+          "firstName": "john",
+          "email": "johnLee@mail.com"
+        }
+      },
+      "company3": {
+        "url": "abcdef.com.us",
+        "status": "active",
+        "registrationId": "reg id",
+        "name": "Company 1012",
+        "updatedBy": "64f6e66d6a7de8ee042d79a1",
+        "systemAdmin": {
+          "phone": "1234455",
+          "lastName": "Hulk",
+          "jobTitle": "Manager",
+          "firstName": "logan",
+          "email": "company1012@mail.com"
+        },
+        "businessContact": {
+          "phone": "0900876",
+          "lastName": "Lee",
+          "jobTitle": "Clerk",
+          "firstName": "john",
+          "email": "johnLee@mail.com"
+        }
+      }
+}
