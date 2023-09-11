@@ -1,65 +1,65 @@
 {
-    "company1": {
-        "url": "abcdef.com.us",
-        "status": "active",
-        "registrationId": "reg id",
-        "name": "Company 1010",
-        "updatedBy": "64f6e66d6a7de8ee042d79a1",
-        "systemAdmin": {
-          "phone": "1234455",
-          "lastName": "Hulk",
-          "jobTitle": "Manager",
-          "firstName": "logan",
-          "email": "company1010@mail.com"
-        },
-        "businessContact": {
-          "phone": "0900876",
-          "lastName": "Lee",
-          "jobTitle": "Clerk",
-          "firstName": "john",
-          "email": "johnLee@mail.com"
-        }
-      },
-      "company2": {
-        "url": "abcdef.com.us",
-        "status": "active",
-        "registrationId": "reg id",
-        "name": "Company 1011",
-        "updatedBy": "64f6e66d6a7de8ee042d79a1",
-        "systemAdmin": {
-          "phone": "1234455",
-          "lastName": "Hulk",
-          "jobTitle": "Manager",
-          "firstName": "logan",
-          "email": "company1011@mail.com"
-        },
-        "businessContact": {
-          "phone": "0900876",
-          "lastName": "Lee",
-          "jobTitle": "Clerk",
-          "firstName": "john",
-          "email": "johnLee@mail.com"
-        }
-      },
-      "company3": {
-        "url": "abcdef.com.us",
-        "status": "active",
-        "registrationId": "reg id",
-        "name": "Company 1012",
-        "updatedBy": "64f6e66d6a7de8ee042d79a1",
-        "systemAdmin": {
-          "phone": "1234455",
-          "lastName": "Hulk",
-          "jobTitle": "Manager",
-          "firstName": "logan",
-          "email": "company1012@mail.com"
-        },
-        "businessContact": {
-          "phone": "0900876",
-          "lastName": "Lee",
-          "jobTitle": "Clerk",
-          "firstName": "john",
-          "email": "johnLee@mail.com"
-        }
-      }
+  "company1": {
+    "url": "https://www.apple.com/",
+    "status": "active",
+    "registrationId": "reg id",
+    "name": "Apple",
+    "updatedBy": "64f6e66d6a7de8ee042d79a1",
+    "systemAdmin": {
+      "phone": "1_800_854_3680.",
+      "lastName": "Steve",
+      "jobTitle": "CEO",
+      "firstName": "Jobs",
+      "email": "SteveJobs@mail.com"
+    },
+    "businessContact": {
+      "phone": "0900876",
+      "lastName": "Lee",
+      "jobTitle": "Clerk",
+      "firstName": "john",
+      "email": "LiaJohnson@mail.com"
+    }
+  },
+  "company2": {
+    "url": "test2.com",
+    "status": "active",
+    "registrationId": "reg id",
+    "name": "Company 01",
+    "updatedBy": "64f6e66d6a7de8ee042d79a1",
+    "systemAdmin": {
+      "phone": "0423-12345",
+      "lastName": "Paul",
+      "jobTitle": "COO",
+      "firstName": "Logan",
+      "email": "company01@mail.com"
+    },
+    "businessContact": {
+      "phone": "0900876",
+      "lastName": "Lee",
+      "jobTitle": "Clerk",
+      "firstName": "john",
+      "email": "LoganPaul@mail.com"
+    }
+  },
+  "company3": {
+    "url": "test3.com",
+    "status": "active",
+    "registrationId": "reg id",
+    "name": "Company 02",
+    "updatedBy": "64f6e66d6a7de8ee042d79a1",
+    "systemAdmin": {
+      "phone": "0423-12345",
+      "lastName": "Lamore",
+      "jobTitle": "CEF",
+      "firstName": "Jake",
+      "email": "company02@mail.com"
+    },
+    "businessContact": {
+      "phone": "0900876",
+      "lastName": "Lee",
+      "jobTitle": "Clerk",
+      "firstName": "john",
+      "email": "JakeLamore@mail.com"
+    }
+  }
 }

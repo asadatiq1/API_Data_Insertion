@@ -1,0 +1,41 @@
+describe("test", () => {
+  it("test", () => {
+    const gqlMutation = `
+        mutation CreateAdminUser($input: CreateAdminUserInput!) {
+            createAdminUser(input: $input) {
+              email
+              _id
+              userType
+            }
+          }
+          `;
+
+    const variables = {
+      input: {
+        userType: "companyAdmin",
+        role: "64f5efe42a9203ffc6126c1e",
+        email: "65sdhgfh@globaldrum.social",
+        firstName: "QATester",
+        status: "active",
+      },
+    };
+
+    cy.request({
+      method: "POST",
+      url: "https://be.aa-dev.global-drum.com/api",
+      headers: {
+        Authorization:
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY0ZjVlZWE3MDgyOGE1MWZhMjM2NGQzZiIsImVtYWlsIjoiYWRtaW5AZ2QuY29tIiwiZmlyc3ROYW1lIjoiR0QiLCJsYXN0TmFtZSI6IkFkbWluIiwicm9sZSI6eyJpc0dEVXNlciI6ZmFsc2UsIl9pZCI6IjY0ZjVlZmU0MmE5MjAzZmZjNjEyNmMxZSIsIm5hbWUiOiJHREFkbWluIiwic3RhdHVzIjoiYWN0aXZlIiwiZGVzY3JpcHRpb24iOiJBIEdEIHVzZXIiLCJwZXJtaXNzaW9ucyI6W10sImlzRGVsZXRlZCI6ZmFsc2V9LCJ1c2VyVHlwZSI6ImdkQWRtaW4iLCJhc3NpZ25lZE5ldHdvcmtzIjpbXSwiYXNzaWduZWRDb21tdW5pdGllcyI6W10sImFzc2lnbmVkQ29tcGFuaWVzIjpbXSwiYWxsTmV0d29ya3NBc3NpZ25lZCI6ZmFsc2UsImFsbENvbW11bml0aWVzQXNzaWduZWQiOmZhbHNlLCJhbGxDb21wYW5pZXNBc3NpZ25lZCI6ZmFsc2UsImlzUHJpdmF0ZSI6ZmFsc2UsImdlbmRlciI6Im1hbGUiLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFbmdsaXNoIiwic2hvd0xvY2F0aW9uIjpmYWxzZSwic3RhdHVzIjoiYWN0aXZlIiwiaXNWZXJpZmllZCI6ZmFsc2UsImlzRGVsZXRlZCI6ZmFsc2UsIl9fdiI6MCwiY3JlYXRlZEF0IjoiMjAyMy0wOS0wNFQxNDo1MDoxNi4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMy0wOS0wOFQwNjo0ODo1OC44NTRaIiwibGFzdFNpZ25JbkRhdGUiOiIyMDIzLTA5LTA4VDA2OjQ4OjU4Ljg1NFoifSwiaWF0IjoxNjk0MTU1NzM5LCJleHAiOjE2OTQxOTg5Mzl9.Fc0DhBnXmbtklMJV_PhJWQFLKUkELWnCXrk3Mqr1-00",
+      },
+      body: {
+        query: gqlMutation,
+        variables: variables,
+      },
+    }).then((response) => {
+      expect(response.status).to.equal(200);
+      expect(response.body.data.createAdminUser.email).to.equal(
+        "65sdhgfh@globaldrum.social"
+      );
+    });
+  });
+});

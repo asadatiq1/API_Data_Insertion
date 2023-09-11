@@ -1,0 +1,59 @@
+{
+  "baseURL": "https://be.aa-dev.global-drum.com/api",
+
+  "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY0ZjVlZWE3MDgyOGE1MWZhMjM2NGQzZiIsImVtYWlsIjoiYWRtaW5AZ2QuY29tIiwiZmlyc3ROYW1lIjoiR0QiLCJsYXN0TmFtZSI6IkFkbWluIiwicm9sZSI6eyJpc0dEVXNlciI6ZmFsc2UsIl9pZCI6IjY0ZjVlZmU0MmE5MjAzZmZjNjEyNmMxZSIsIm5hbWUiOiJHREFkbWluIiwic3RhdHVzIjoiYWN0aXZlIiwiZGVzY3JpcHRpb24iOiJBIEdEIHVzZXIiLCJwZXJtaXNzaW9ucyI6W10sImlzRGVsZXRlZCI6ZmFsc2V9LCJ1c2VyVHlwZSI6ImdkQWRtaW4iLCJhc3NpZ25lZE5ldHdvcmtzIjpbXSwiYXNzaWduZWRDb21tdW5pdGllcyI6W10sImFzc2lnbmVkQ29tcGFuaWVzIjpbXSwiYWxsTmV0d29ya3NBc3NpZ25lZCI6ZmFsc2UsImFsbENvbW11bml0aWVzQXNzaWduZWQiOmZhbHNlLCJhbGxDb21wYW5pZXNBc3NpZ25lZCI6ZmFsc2UsImlzUHJpdmF0ZSI6ZmFsc2UsImdlbmRlciI6Im1hbGUiLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFbmdsaXNoIiwic2hvd0xvY2F0aW9uIjpmYWxzZSwic3RhdHVzIjoiYWN0aXZlIiwiaXNWZXJpZmllZCI6ZmFsc2UsImlzRGVsZXRlZCI6ZmFsc2UsIl9fdiI6MCwiY3JlYXRlZEF0IjoiMjAyMy0wOS0wNFQxNDo1MDoxNi4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMy0wOS0wOFQwNjo0ODo1OC44NTRaIiwibGFzdFNpZ25JbkRhdGUiOiIyMDIzLTA5LTA4VDA2OjQ4OjU4Ljg1NFoifSwiaWF0IjoxNjk0MTU1NzM5LCJleHAiOjE2OTQxOTg5Mzl9.Fc0DhBnXmbtklMJV_PhJWQFLKUkELWnCXrk3Mqr1-00",
+
+  "community1": {
+    "title": "Micro SaaS HQ",
+    "status": "active",
+    "url": "https://thehiveindex.com/communities/micro-saas-hq/",
+    "isPrivate": false,
+    "description": "Micro SaaS HQ is a Circle Group for Technologists, Founders, SaaS Founders, Indie Hackers, Building in Public, and Micro Startups with roughly 500 members. It has both a forum and a live chat communication style.",
+    "logo": "https://cdn.dorik.com/5f0ff77cc378ce0011cacd3a/61ee491d7473b10011f1ba94/images/MSIHQ-FavIcon-New_7wiv56n2.png",
+    "coverPic": "https://og.tailgraph.com/og?fontFamily=Open%2BSans&title=Micro%20SaaS%20HQ&titleTailwind=font-bold%20text-6xl%20text-rose-600&text=Circle%20Group%20for%20Saas%2C%20Entrepreneurship%2C%20Building-in-public%2C%20Indie-business%2C%20Micro-startups%2C%20Tech&textTailwind=text-2xl%20mt-4%20text-yellow-600&textFontFamily=Source%2BSans%2BPro&logoUrl=https://cdn.dorik.com/5f0ff77cc378ce0011cacd3a/61ee491d7473b10011f1ba94/images/MSIHQ-FavIcon-New_7wiv56n2.png&logoTailwind=mx-auto%20h-48%20mb-4&bgUrl=https%3A%2F%2Fthehiveindex.com%2Fstatic%2F6f9a721ed54860c63211350929d004b7%2F9c94d%2Ficon.png&bgTailwind=bg-white&overlay=1&overlayTailwind=bg-white%20opacity-95&footer=thehiveindex.com&footerTailwind=font-bold%20text-rose-500%20text-center%20text-xl&containerTailwind=bg-transparent",
+    "ageLimit": 18,
+    "canComment": true,
+    "canCommentReply": true,
+    "canLike": true,
+    "canViewCount": true,
+    "checkTNC": true,
+    "networkId": "null",
+    "companyId": "null"
+  },
+
+  "community2": {
+    "title": "Test 0002",
+    "status": "active",
+    "url": "testing0002.com",
+    "isPrivate": false,
+    "description": "ahjsgdjhagsd hjasgdjasgjhda kjashdjasbd",
+    "logo": "logo here",
+    "coverPic": "cover here",
+    "ageLimit": 29,
+    "canComment": true,
+    "canCommentReply": true,
+    "canLike": true,
+    "canViewCount": true,
+    "checkTNC": true,
+    "networkId": "64f5faac6d81694afdc576ee",
+    "companyId": "64f5f2022a9203ffc6126c25"
+  },
+
+  "community3": {
+    "title": "Test 0003",
+    "status": "active",
+    "url": "testing0003.com",
+    "isPrivate": false,
+    "description": "ahjsgdjhagsd hjasgdjasgjhda kjashdjasbd",
+    "logo": "logo here",
+    "coverPic": "cover here",
+    "ageLimit": 29,
+    "canComment": true,
+    "canCommentReply": true,
+    "canLike": true,
+    "canViewCount": true,
+    "checkTNC": true,
+    "networkId": "64f5faac6d81694afdc576ee",
+    "companyId": "64f5f2022a9203ffc6126c25"
+  }
+}
